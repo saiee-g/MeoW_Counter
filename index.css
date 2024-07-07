@@ -1,0 +1,67 @@
+body{
+    background-image: url("cat3.jpg");
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    
+    
+}
+
+.container{
+    background: rgba(255,255,255,0.64);
+    max-width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: rgb(67, 65, 65);
+}
+
+h2{
+    margin: 0px;
+    margin-bottom: 20px;
+    font-size: 70px;
+    color: rgb(67, 65, 65);
+}
+
+
+button{
+border: none;
+font-size: large;
+padding-top: 20px;
+padding-bottom: 20px;
+color: rgb(56, 54, 54);
+font-weight: bold;
+width: 200px;
+border-radius: 50%;
+box-shadow: 10px rgb(255, 255, 255);
+}
+
+
+
+button:hover{
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.354);
+
+}
+
+#increment-btn{
+    background: pink;
+}
+
+#save-btn{
+    background: plum;
+}
+
+#save-el{
+    color: rgb(225, 67, 120);
+    font-size: large;
+}
